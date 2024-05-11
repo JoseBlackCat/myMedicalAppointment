@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Doctor primerDoctor = new Doctor(1, "Bruno", "Pediatría");
+
+        primerDoctor.mostrarNombre();
     }
 }
