@@ -5,6 +5,7 @@ public class Doctor {
     String especialidad;
 
     public Doctor() {
+        System.out.println("Construyendo el Objeto Doctor");
         idDoctor++;
     }
 
@@ -21,6 +22,6 @@ public class Doctor {
     }
 
     public void mostrarID() {
-        System.out.println(idDoctor);
+        System.out.println("ID del doctor: " + idDoctor);
     }
 }
